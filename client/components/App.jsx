@@ -10,6 +10,8 @@ import { Nine96 } from "./Nine96";
 import { Nine97 } from "./Nine97";
 import { Nine91 } from "./Nine91";
 import { Nine92 } from "./Nine92";
+import { Nine86 } from "./Nine86";
+import { TBA } from "./TBA";
 
 import "./index.scss";
 import { Navbar } from "./Navbar";
@@ -30,6 +32,8 @@ export default function App() {
           <Route path="/997" element={<Nine97 />} />
           <Route path="/991" element={<Nine91 />} />
           <Route path="/992" element={<Nine92 />} />
+          <Route path="/986" element={<Nine86 />} />
+          <Route path="/TBA" element={<TBA />} />
         </Routes>
       </BrowserRouter>
     </div>

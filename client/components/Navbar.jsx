@@ -68,18 +68,18 @@ export const Navbar = () => {
               Boxster
             </a>
             {boxsterDrop && (
-              <ul className="absolute top-full left-0 w-40 text-black rounded shadow">
+              <ul className="absolute top-full left-0 w-40 text-black rounded shadow z-20">
                 <li>
-                  <Link to="/986B">TBA</Link>
+                  <Link to="/986">986</Link>
                 </li>
                 <li>
-                  <Link to="/987B">TBA</Link>
+                  <Link to="/TBA">987</Link>
                 </li>
                 <li>
-                  <Link to="/981B">TBA</Link>
+                  <Link to="/TBA">981</Link>
                 </li>
                 <li>
-                  <Link to="/718B">TBA</Link>
+                  <Link to="/TBA">718</Link>
                 </li>
               </ul>
             )}
@@ -97,18 +97,15 @@ export const Navbar = () => {
               Cayman
             </a>
             {caymanDrop && (
-              <ul className="absolute top-full left-0 w-40 text-black rounded shadow">
+              <ul className="absolute top-full left-0 w-40 text-black rounded shadow z-20">
                 <li>
-                  <Link to="/986C">TBA</Link>
+                  <Link to="/TBA">987</Link>
                 </li>
                 <li>
-                  <Link to="/987C">TBA</Link>
+                  <Link to="/TBA">981</Link>
                 </li>
                 <li>
-                  <Link to="/981C">TBA</Link>
-                </li>
-                <li>
-                  <Link to="/718C">TBA</Link>
+                  <Link to="/TBA">718</Link>
                 </li>
               </ul>
             )}
