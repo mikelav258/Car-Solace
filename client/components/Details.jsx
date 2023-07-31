@@ -1,15 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { Navbar } from "./Navbar";
 
 export function Details() {
-  const navigate = useNavigate();
-  function homePage() {
-    navigate("/");
-  }
   return (
     <>
-      {/* <Navbar /> */}
       <div class="Carerra flex flex-col justify-center items-center">
         <h2 class="text-center">911 Carerra</h2>
         <p class="text-center">
@@ -23,6 +17,7 @@ export function Details() {
           <br />
           Currently the brand's flagship model
         </p>
+        <br />
       </div>
       <div class="Boxster flex flex-col justify-center items-center">
         <h2>Boxster</h2>
@@ -31,6 +26,7 @@ export function Details() {
           Introduced in 1996, the Boxster was a more entry-level vehicle into
           the brand
         </p>
+        <br />
       </div>
       <div class="Cayman flex flex-col justify-center items-center">
         <h2>Cayman</h2>

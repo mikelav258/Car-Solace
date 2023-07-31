@@ -36,12 +36,21 @@ export const Navbar = () => {
               Carerra
             </a>
             {carerraDrop && (
-              <ul className="absolute top-full left-0 w-40 text-black rounded shadow">
-                <li>
+              <ul className="absolute top-full left-0 w-40 text-black rounded shadow z-20">
+                <li onClick={closeCarerraDrop}>
                   <Link to="/993">993</Link>
                 </li>
-                <li>
-                  <Link to="/">TBA</Link>
+                <li onClick={closeCarerraDrop}>
+                  <Link to="/996">996</Link>
+                </li>
+                <li onClick={closeCarerraDrop}>
+                  <Link to="/997">997</Link>
+                </li>
+                <li onClick={closeCarerraDrop}>
+                  <Link to="/991">991</Link>
+                </li>
+                <li onClick={closeCarerraDrop}>
+                  <Link to="/992">992</Link>
                 </li>
               </ul>
             )}
@@ -61,10 +70,16 @@ export const Navbar = () => {
             {boxsterDrop && (
               <ul className="absolute top-full left-0 w-40 text-black rounded shadow">
                 <li>
-                  <Link to="/">TBA</Link>
+                  <Link to="/986B">TBA</Link>
                 </li>
                 <li>
-                  <Link to="/">TBA</Link>
+                  <Link to="/987B">TBA</Link>
+                </li>
+                <li>
+                  <Link to="/981B">TBA</Link>
+                </li>
+                <li>
+                  <Link to="/718B">TBA</Link>
                 </li>
               </ul>
             )}
@@ -84,10 +99,16 @@ export const Navbar = () => {
             {caymanDrop && (
               <ul className="absolute top-full left-0 w-40 text-black rounded shadow">
                 <li>
-                  <Link to="/">TBA</Link>
+                  <Link to="/986C">TBA</Link>
                 </li>
                 <li>
-                  <Link to="/">TBA</Link>
+                  <Link to="/987C">TBA</Link>
+                </li>
+                <li>
+                  <Link to="/981C">TBA</Link>
+                </li>
+                <li>
+                  <Link to="/718C">TBA</Link>
                 </li>
               </ul>
             )}

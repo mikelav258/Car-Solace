@@ -1,7 +1,5 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { Footer } from "./Footer";
-import { Navbar } from "./Navbar";
 
 export function Home() {
   const navigate = useNavigate();
@@ -11,7 +9,7 @@ export function Home() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center m-20">
+      <div className="flex flex-col justify-center items-center m-10">
         <h1 className="">
           <span id="span1">C</span>ar <span id="span2">S</span>olace
         </h1>
@@ -30,7 +28,6 @@ export function Home() {
           </p>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }
